@@ -1,4 +1,4 @@
-# CineSense: Movie Recommendation System
+# [CineSense](https://cinesense.streamlit.app): Movie Recommendation System
 
 CineSense is a movie recommendation application that uses cosine similarity to suggest movies based on user input. Built with Streamlit for the frontend, CineSense offers an intuitive interface for users to discover new films tailored to their preferences. The project is deployed on Streamlit Community Cloud and is accessible through the following link: [CineSense](https://cinesense.streamlit.app).
 
