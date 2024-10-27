@@ -17,7 +17,7 @@ CineSense is a movie recommendation application that uses cosine similarity to s
 
 ## Code Overview
 
-The core functionality is defined in the `recommend` function, which processes user input and returns a list of recommended movies based on cosine similarity. The results can be sorted based on user preferences, including:
+After data pre-processing, Content based filtering is applied. The core functionality is defined in the `recommend` function, which processes user input and returns a list of recommended movies based on cosine similarity. The results can be sorted based on user preferences, including:
 
 - Most Similar Content
 - Newest First
