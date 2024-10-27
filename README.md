@@ -34,4 +34,4 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 ## Acknowledgments
 
 - Streamlit for the powerful framework that made this project possible.
-- The dataset used for the movie information and similarit
+- The dataset used for the movie information and similarity calculations.
