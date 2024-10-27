@@ -1,11 +1,31 @@
 import pickle
 import streamlit as st
 import re
+import base64
 
 #Load data
 movies = pickle.load(open('movie_list.pkl', 'rb'))
 similarity = pickle.load(open('similarity.pkl', 'rb'))
 movie_list = movies['original_title'].values
+
+def setbg(png_file):
+    #encoding image to base64
+    with open(png_file, "rb") as f:
+        encoded_string = base64.b64encode(f.read()).decode()
+
+    st.markdown(
+        f"""
+        <style>
+        .stApp {{
+            background-image: url("data:image/png;base64,{encoded_string}");
+            background-size: cover;
+        }}
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
+
+setbg('background.png')
 
 def clean_string(text):
     text = text.lower()
@@ -56,7 +76,7 @@ def recommend(movie_name, n=5, sort_order=None):
 
 #Frontend code starts here
 c1, c2, c3 = st.columns([1, 2, 1]) 
-image_path = "title.jpg"
+image_path = "logo.png"
 with c2:
     st.image(image_path)
 
