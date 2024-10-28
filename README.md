@@ -8,6 +8,15 @@ CineSense is a movie recommendation application that uses cosine similarity to s
 - **Dynamic Sorting**: Sort recommendations by various criteria, including release year, rating, and popularity.
 - **User-Friendly Interface**: Easily select a movie and the number of recommendations you desire.
 
+## Screenshots
+
+![CineSense Screenshot 1](https://github.com/Sayantika84/CineSense/blob/main/screenshots/screenshot1.png?raw=true)
+![CineSense Screenshot 2](https://github.com/Sayantika84/CineSense/blob/main/screenshots/screenshot2.png?raw=true)
+![CineSense Screenshot 3](https://github.com/Sayantika84/CineSense/blob/main/screenshots/screenshot3.png?raw=true)
+![CineSense Screenshot 4](https://github.com/Sayantika84/CineSense/blob/main/screenshots/screenshot4.png?raw=true)
+
+
+
 ## Usage
 
 1. **Select a Movie**: Use the dropdown menu or type the movie name to select your desired film.
