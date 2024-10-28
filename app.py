@@ -8,24 +8,24 @@ movies = pickle.load(open('movie_list.pkl', 'rb'))
 similarity = pickle.load(open('similarity.pkl', 'rb'))
 movie_list = movies['original_title'].values
 
-def setbg(png_file):
-    #encoding image to base64
-    with open(png_file, "rb") as f:
-        encoded_string = base64.b64encode(f.read()).decode()
+#code for background image
+def get_base64_image(file_path):
+    with open(file_path, "rb") as img_file:
+        return base64.b64encode(img_file.read()).decode("utf-8")
 
-    st.markdown(
-        f"""
-        <style>
-        .stApp {{
-            background-image: url("data:image/png;base64,{encoded_string}");
-            background-size: cover;
-        }}
-        </style>
-        """,
-        unsafe_allow_html=True
-    )
+file_path = "background.png"
+base64_image = get_base64_image(file_path)
 
-setbg('background.png')
+background_style = f"""
+<style>
+    .stApp {{
+        background-image: url("data:image/jpeg;base64,{base64_image}");
+        background-size: cover;
+    }}
+</style>
+"""
+st.markdown(background_style, unsafe_allow_html=True)
+#code for background image ends here
 
 def clean_string(text):
     text = text.lower()
