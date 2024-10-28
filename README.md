@@ -10,10 +10,11 @@ CineSense is a movie recommendation application that uses cosine similarity to s
 
 ## Screenshots
 
-![CineSense Screenshot 1](https://github.com/Sayantika84/CineSense/blob/main/screenshots/screenshot1.png?raw=true)
-![CineSense Screenshot 2](https://github.com/Sayantika84/CineSense/blob/main/screenshots/screenshot2.png?raw=true)
-![CineSense Screenshot 3](https://github.com/Sayantika84/CineSense/blob/main/screenshots/screenshot3.png?raw=true)
-![CineSense Screenshot 4](https://github.com/Sayantika84/CineSense/blob/main/screenshots/screenshot4.png?raw=true)
+![CineSense Screenshot 1](https://github.com/Sayantika84/CineSense/blob/main/Screenshots/Screenshot%201.png?raw=true)
+![CineSense Screenshot 2](https://github.com/Sayantika84/CineSense/blob/main/Screenshots/Screenshot%202.png?raw=true)
+![CineSense Screenshot 3](https://github.com/Sayantika84/CineSense/blob/main/Screenshots/Screenshot%203.png?raw=true)
+![CineSense Screenshot 4](https://github.com/Sayantika84/CineSense/blob/main/Screenshots/Screenshot%204.png?raw=true)
+
 
 
 
